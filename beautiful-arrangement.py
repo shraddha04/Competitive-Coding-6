@@ -1,5 +1,5 @@
-# TC : n!
-# SC : n - for the set and recursion stack
+# TC : O(n!)
+# SC : O(3n) = O(n)  - n for the set, n for the list, n for the recursion stack
 
 class Solution(object):
     def countArrangement(self, n):
